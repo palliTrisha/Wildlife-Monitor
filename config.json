@@ -1,0 +1,53 @@
+{
+  "animals": [
+    {
+      "id": "JAG001",
+      "name": "Luna",
+      "starting_lat": 3.5,
+      "starting_lon": -60.2
+    },
+    {
+      "id": "JAG002",
+      "name": "Blaze",
+      "starting_lat": 3.7,
+      "starting_lon": -60.5
+    },
+    {
+      "id": "JAG003",
+      "name": "Shadow",
+      "starting_lat": 3.3,
+      "starting_lon": -60.8
+    }
+  ],
+  "simulation": {
+    "interval_seconds": 5,
+    "temperature_baseline": 38.5,
+    "movement_baseline": 0.5
+  },
+  "zones": [
+    {
+      "id": "ZONE001",
+      "name": "Safe Haven",
+      "type": "safe",
+      "lat": 3.5,
+      "lon": -60.2,
+      "radius_meters": 500
+    },
+    {
+      "id": "ZONE002",
+      "name": "Poaching Risk Area",
+      "type": "danger",
+      "lat": 3.6,
+      "lon": -60.4,
+      "radius_meters": 400
+    },
+    {
+      "id": "ZONE003",
+      "name": "Highway Crossing",
+      "type": "danger",
+      "lat": 3.4,
+      "lon": -60.7,
+      "radius_meters": 300
+    }
+  ]
+}
